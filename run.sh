@@ -1,3 +1,5 @@
 #!/bin/sh
 
-google-chrome index.html
+export CUDA_VISIBLE_DEVICES=""
+
+#google-chrome index.html
