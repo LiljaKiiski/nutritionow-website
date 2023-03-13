@@ -5,6 +5,8 @@
 #this link for conda
 #https://docs.conda.io/en/latest/miniconda.html?ref=learn-ubuntu#linux-installers
 
+pip install django
+
 conda install -c huggingface transformers
 
 conda install pytorch torchvision -c soumith
