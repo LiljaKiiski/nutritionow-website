@@ -9,10 +9,16 @@
 
 	<body>
 		<h1>Nutrition Website Name</h1>
-
-		<a href="/house">Go to second page</a>
 		
 		<p>Result: {{result}}</p>
+
+		<form method="POST">
+			{% csrf_token %}
+			<label for="input">Question</label>
+			<input id="input" name="input"></input>
+			<button type="submit">Send</button>
+		</form>
+		<p style="color: rgb(5, 146, 0)">{{message}}</p>
 
 	</body>	
 </html>
