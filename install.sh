@@ -7,6 +7,10 @@
 
 pip install django
 
+#pip install torch torchvision
+
+#pip install transformers
+
 conda install -c huggingface transformers
 
 conda install pytorch torchvision -c soumith

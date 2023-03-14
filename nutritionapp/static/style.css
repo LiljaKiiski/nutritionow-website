@@ -17,3 +17,9 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li {
 	color: #4ca044;
 	font-size: 100px;
 }
+
+.result {
+	font-size: 25px;
+	margin-left: 30%;
+	margin-right: 30%;
+}

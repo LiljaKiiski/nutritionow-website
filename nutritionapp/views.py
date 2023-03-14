@@ -11,6 +11,7 @@ def index(request):
     if request.method == "POST":
         prompt = request.POST.get("input", "")
         message = generator(prompt, min_length=30, max_length=60)
+    print(message)
     context = {"message": message}
 
     return render(request, "index.html", context)
