@@ -1,18 +1,21 @@
-<!DOCTYPE html>
+{% load static %}
 <html>
 	<head>
-		<title>Nutrition Website Name</title>
-		<link rel="stylesheet" type="text/css" href="assets/style.css">
-        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> 
+		<title>NutritioNow</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> 
 		<script src="https://kit.fontawesome.com/d4b1dbcaad.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
-		<h1>Nutrition Website Name</h1>
+		<div class="top">
+			<h1>NutritioNow</h1> <!-- better name later-->
+		</div>
+
+		<h2>Ask about anything Nutrition or Health related!</h2>
 
 		<form method="POST">
 			{% csrf_token %}
-			<label for="input">Question</label>
 			<input id="input" name="input"></input>
 			<button type="submit">Send</button>
 		</form>
