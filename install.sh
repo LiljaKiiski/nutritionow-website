@@ -5,12 +5,14 @@
 #this link for conda
 #https://docs.conda.io/en/latest/miniconda.html?ref=learn-ubuntu#linux-installers
 
-pip install django
+pip install django, django-environ
 
-#pip install torch torchvision
+pip install nltk, numpy
 
-#pip install transformers
+# pip install torch torchvision
 
-conda install -c huggingface transformers
+# pip install transformers
 
-conda install pytorch torchvision -c soumith
+# conda install -c huggingface transformers
+
+# conda install pytorch torchvision -c soumith

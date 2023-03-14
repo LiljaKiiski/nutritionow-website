@@ -1,0 +1,25 @@
+@font-face {
+    font-family: shadows-into-light;
+    src: url('ShadowsIntoLight-Regular.ttf');
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: shadows-into-light;
+	background: #fffdf1;
+	color: #92c24c;
+	text-align: center;
+}
+
+.top h1 {
+	color: #4ca044;
+	font-size: 100px;
+}
+
+.result {
+	font-size: 25px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
