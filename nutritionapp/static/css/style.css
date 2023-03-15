@@ -3,6 +3,8 @@
     src: url('ShadowsIntoLight-Regular.ttf');
 }
 
+/* All pages */
+
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin: 0;
     padding: 0;
@@ -13,32 +15,44 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     text-align: center;
 }
 
-.bubble{
-	text-align: left;
-	word-wrap: break-word;
-}
+/* Profiles */
 
 .person{
-	width: 20%;
-	height: auto;
-	float: left;
-	border-radius:20px;
-	margin: 20px;
-	font-size: 30px;
-	padding: 5px;
+    display: block;
+    display: inline-block;
+    min-height: 30vh;
+	width: 15%;
+	height: 40;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 25px;
+	margin: 5px;
 	position: relative;
-	border: 5px solid black;
+	border: 5px solid rgb(4, 107, 0);
+}
+
+.person, .person h1, .person .bubble {
+    background:rgb(255, 235, 212)
 }
 
 .person h1{
 	font-size: 40px;
 }
 
-.page{
-    background-color: rgb(112, 197, 226);
-    border: 3px solid rgb(0, 96, 240);
+.person .profile-pic {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.person .bubble {
+	text-align: center;
+	word-wrap: break-word;
     font-size: 30px;
-    color:rgb(0, 96, 240);
+}
+
+.page{
+    font-size: 30px;
+    color:rgb(240, 128, 0);
     padding-left:2.5%;
     padding-right: 2.5%;
 	margin-bottom: 1%;
@@ -46,32 +60,22 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 #navBar{
-    background-color:rgb(112, 197, 226);
     text-align: left;
 }
 
 #input{
-    width:max-content;
-}
-
-#top{
-    border: 3px solid rgb(112, 197, 226);
+    width: max-content;
 }
 
 #top p{
     color: #4ca044;
     font-size: 20px;
-    background-color: #ddeb42;
 }
 
 #top h1 {
     color: #4ca044;
     font-size: 100px;
-    background-color: #ddeb42;
-    
 }
-
-
 
 h2 {
     padding: 20px;
