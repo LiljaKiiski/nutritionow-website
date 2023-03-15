@@ -1,13 +1,13 @@
 from django.shortcuts import render
-# from transformers import pipeline
-# from pprint import pprint
+from .utils import chat
+
 
 # Create your views here.
 def index(request):
 
     message = ""
     if request.method == "POST":
-        message = "hello there"
+        message = chat(request.POST['input'])
     context = {"message": message}
 
     return render(request, "index.html", context)
