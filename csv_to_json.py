@@ -6,7 +6,7 @@ import json
 def make_json(csvFilePath, jsonFilePath):
      
     # create a dictionary
-    data = {}
+    data = {"intents": []}
      
     # Open a csv reader called DictReader
     with open(csvFilePath, encoding='utf-8') as csvf:
@@ -15,11 +15,14 @@ def make_json(csvFilePath, jsonFilePath):
         # Convert each row into a dictionary
         # and add it to data
         for rows in csvReader:
-             
+            tmp = {}
             # Assuming a column named 'No' to
             # be the primary key
-            key = rows['Num']
-            data[key] = rows
+            tmp["tag"] = rows['Num']
+            tmp["patterns"] = [rows['Question']]
+            tmp["responses"] = [rows['Answer']]
+            tmp["context_set"] = ""
+            data["intents"].append(tmp)
  
     # Open a json writer, and use the json.dumps()
     # function to dump data
@@ -30,8 +33,8 @@ def make_json(csvFilePath, jsonFilePath):
  
 # Decide the two file paths according to your
 # computer system
-csvFilePath = "nutritionapp/static/FoodQandA.csv"
-jsonFilePath = "nutritionapp/static/FoodQandA.json"
+csvFilePath = "FoodQandA.csv"
+jsonFilePath = "FoodQandA.json"
  
 # Call the make_json function
 make_json(csvFilePath, jsonFilePath)
