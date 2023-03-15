@@ -3,7 +3,16 @@
     {
       "tag": "1",
       "patterns": [
-        "What's the suggested everyday calorie consumption for a typical grownup? What is the everyday calorie requirement for a regular adult? What's the daily calorie requirement for an average adult? What's the suggested calorie intake for a usual adult? What's the advised calorie intake for an everyday grownup? What's the recommended daily calorie intake for the average adult? What is the suggested calorie consumption for the regular adult? What's the suggested calorie consumption for the average adult? What's the daily calorie intake suggested for a typical adult? What's the recommended regular calorie consumption for an adult?",
+        "What is the suggested number of calories an average adult should consume each day? ",
+        "How many calories should an adult consume daily as recommended? ",
+        "What is the daily recommended calorie intake for an average adult? ",
+        "What number of calories is advised for an adult to consume on a daily basis? ",
+        "What is the recommended amount of calories an average adult should consume daily? ",
+        "How many daily calories are recommended for an average adult to consume? ",
+        "What is the advised calorie intake per day for an average adult? ",
+        "What is the daily calorie intake suggested for an adult? ",
+        "What is the typical number of calories an adult should consume each day as recommended? ",
+        "What's the daily calorie intake which is recommended for the average adult?",
         "What is the recommended daily calorie intake for an average adult?"
       ],
       "responses": [
@@ -16,12 +25,16 @@
     {
       "tag": "2",
       "patterns": [
-        "What are some protein sources for vegetarians",
-        " good ones?What are some good protein sources for vegetarians?Vegetarians",
-        " what are some good protein sources?What good sources of protein are there for vegetarians?Regarding protein sources",
-        " what would be good for vegetarians?What protein sources are good if I'm a vegetarian?What are some good sources of protein for vegetarians",
-        " exactly?What are some good protein choices for vegetarians?Vegetarians sometimes need more protein. What are some good choices?For vegetarians",
-        " are there good sources of protein that you would recommend?",
+        "What are some protein-rich foods suitable for vegetarians?",
+        "Can you name a few vegetarian-friendly protein sources?",
+        "What are some good sources of protein that don't come from meat?",
+        "Which non-meat foods are high in protein and good for vegetarians?",
+        "What vegetarian foods are high in protein content?",
+        "For vegetarians looking for protein, what are some good options?",
+        "What are some plant-based sources of protein that vegetarians should consider?",
+        "What foods can vegetarians eat to get enough protein in their diet?",
+        "What are the best protein sources for vegetarians?",
+        "What are some suggestions for vegetarians who want to increase their protein intake?",
         "What are some good sources of protein for vegetarians?"
       ],
       "responses": [
@@ -34,7 +47,16 @@
     {
       "tag": "3",
       "patterns": [
-        "Is it essential to take supplements to fulfill your everyday nutritional requirements? Is it imperative to consume supplements to meet your daily nutritional needs? Is it compulsory to intake supplements to satisfy your everyday nutritional requirements? Is it necessary to take supplements to meet your daily nutrient needs? Is it a requirement to consume supplements to fulfill your everyday nutritional demands? Is it mandatory to take supplements to meet your daily nutrient requirements? Is it important to intake supplements to satisfy your everyday nutritional needs? Is it a must to consume supplements to fulfill your daily nutritional demands? Is it vital to take supplements to meet your daily nutritional necessities? Is it needed to intake supplements to satisfy your daily nutritional requirements?",
+        "Do you need to take supplements to fulfill your daily nutritional needs? ",
+        "Is the intake of supplements unavoidable to meet your daily nutritional needs? ",
+        "Can you meet your daily nutritional requirements without supplements? ",
+        "Are supplements mandatory to meet your daily nutritional needs? ",
+        "Is it compulsory to consume supplements to satisfy your daily nutritional needs? ",
+        "Do you have to consider taking supplements to meet your daily nutritional needs? ",
+        "Is taking supplements essential to fulfill your daily nutritional needs? ",
+        "Is it a must to take supplements to meet your daily nutritional needs? ",
+        "Is the consumption of supplements necessary to meet your daily nutritional requirements? ",
+        "Can your daily nutritional needs be met without supplements, or is it necessary to consume them?",
         "Is it necessary to take supplements to meet your daily nutritional requirements?"
       ],
       "responses": [
@@ -47,8 +69,17 @@
     {
       "tag": "4",
       "patterns": [
-        " Can a low-carb diet lead to long-term weight loss?"," Is a low-carb diet a sustainable way to lose weight over time?"," Does a low-carb diet promote healthy weight loss in the long run?"," Is it safe to rely on a low-carb diet for extended weight loss success?"," Can a low-carb diet be a healthy choice for maintaining weight loss over time?"," Is a low-carb diet a viable option for those seeking lasting weight loss results?"," Does a low-carb diet offer a healthy and sustainable approach to weight loss?"," Can a low-carb diet support long-term weight loss goals while promoting overall health?"," How effective and healthy is a low-carb diet for maintaining weight loss?"," Is a low-carb diet a good choice for those seeking long-term weight management?",
-        "Can a low-carb diet be healthy for long-term weight loss? A: A low-carb diet can be effective for weight loss in the short-term, but it is unclear whether it is a sustainable long-term solution for most people. Consult a healthcare professional before making any significant dietary changes."
+        "Is a low-carb diet a healthy option for long-term weight loss?",
+        "Can low-carb diets be maintained for an extended period for weight loss?",
+        "Is a low-carb diet a sustainable solution for most people in the long-term?",
+        "Can a low-carb diet lead to healthy weight loss in the long run?",
+        "Is it safe to follow a low-carb diet for long-term weight loss?",
+        "Does a low-carb diet promote healthy and long-term weight loss?",
+        "Is a low-carb diet recommended for long-term weight loss?",
+        "Can a low-carb diet be a successful long-term weight loss solution?",
+        "What are the long-term effects of a low-carb diet on weight loss?",
+        "Should one consult a healthcare professional before starting a low-carb diet for long-term weight loss?",
+        "Can a low-carb diet be healthy for long-term weight loss?"
       ],
       "responses": [
         [
@@ -60,17 +91,16 @@
     {
       "tag": "5",
       "patterns": [
-        "Is eating raw eggs safe? ",
-        " Raw eggs are safe to eat",
-        " right? ",
-        " Can one eat raw eggs safely? ",
-        " Is it possible to consume raw eggs safely? ",
-        " Are raw eggs safe for consumption? ",
-        " Is raw egg consumption secure? ",
-        " Can we eat raw eggs without issues? ",
-        " Is it safe to eat eggs raw or not? ",
-        " Is the consumption of raw eggs safe? ",
-        " Is consuming raw eggs without harm possible?",
+        "Is consuming uncooked eggs secure?",
+        "Are raw eggs safe to ingest?",
+        "Can one eat raw eggs without risk?",
+        "Is it hazardous to consume uncooked eggs?",
+        "Would eating raw eggs be potentially dangerous?",
+        "Is it advisable to eat eggs that are not cooked?",
+        "Are uncooked eggs safe for consumption?",
+        "Is it fine to eat eggs that are not cooked?",
+        "Is there a risk of harm if you eat raw eggs?",
+        "Do raw eggs pose any danger if consumed?",
         "Is it safe to eat raw eggs?"
       ],
       "responses": [
@@ -83,16 +113,16 @@
     {
       "tag": "6",
       "patterns": [
-        "What are some good sources of omega-3 fatty acids?",
-        "What are some omega-3 fatty acid-rich foods?",
-        "What are some foods with high levels of omega-3 fats?",
-        "Name some foods that are high in omega-3s?",
-        "Which foods are the best sources of omega-3s?",
-        "What foods contain omega-3 fatty acids?",
-        "Give some examples of omega-3-rich foods?",
-        "What are some dietary sources of omega-3 fatty acids?",
-        "What are some natural sources of omega-3s?",
-        "What foods are good sources of omega-3 fatty acids?",
+        "What are some excellent sources of omega-3 fatty acids?",
+        "What foods are high in omega-3 fatty acids?",
+        "Which foods are rich in omega-3 fatty acids?",
+        "What are some recommended sources of omega-3 fatty acids?",
+        "What are some healthy sources of omega-3 fatty acids?",
+        "What are some natural sources of omega-3 fatty acids?",
+        "What are some reliable sources of omega-3 fatty acids?",
+        "What are some beneficial sources of omega-3 fatty acids?",
+        "What are some nutritious sources of omega-3 fatty acids?",
+        "What are some sources of omega-3 fatty acids that are good for you?",
         "What are some good sources of omega-3 fatty acids?"
       ],
       "responses": [
@@ -105,17 +135,16 @@
     {
       "tag": "7",
       "patterns": [
-        "How much daily fiber intake should I aim for",
-        " How much fiber should I consume per day",
-        " What is the amount of daily recommended fiber intake",
-        " What is the recommended daily fiber requirement",
-        " Daily fiber intake",
-        " what is the ideal amount",
-        " How much daily fiber should be included in my diet",
-        " What's the daily fiber allowance",
-        " What is the optimal daily fiber intake",
-        " How much fiber should I aim to consume each day",
-        " What amount of daily fiber is recommended for optimal health.",
+        "What is the recommended daily intake of fiber?",
+        "How much fiber should be part of my daily diet?",
+        "What is the daily amount of fiber one should aim for?",
+        "How much dietary fiber should I consume in a day?",
+        "What is the ideal daily fiber intake for optimal health?",
+        "What is the daily value of fiber I need to consume?",
+        "How much fiber should I be getting each day?",
+        "What is the adequate daily intake of fiber?",
+        "What is the daily recommended fiber intake?",
+        "How much fiber is recommended for daily consumption?",
         "How much fiber should I consume daily?"
       ],
       "responses": [
@@ -128,16 +157,16 @@
     {
       "tag": "8",
       "patterns": [
-        "Is eating too much fruit possible",
-        " Can one consume an excess of fruit",
-        " Is it feasible to overindulge on fruit",
-        " Might it be attainable to eat an excessive amount of fruit",
-        " Is an overconsumption of fruit doable",
-        " Will overeating fruit be possible",
-        " Can too much fruit be eaten",
-        " Might one exceed the limit of fruit consumption",
-        " Is it possible to consume a surplus of fruit",
-        " Can an excessive amount of fruit be ingested.",
+        "Can one consume an excessive amount of fruit?",
+        "Is there a limit to the amount of fruit one can consume? ",
+        "Can eating too much fruit be harmful? ",
+        "Is it unhealthy to consume a high quantity of fruit? ",
+        "Is there a negative consequence to overeating fruit? ",
+        "Can consuming an excessive amount of fruit lead to health issues? ",
+        "Is it possible to go overboard with consuming fruit? ",
+        "Is there such a thing as eating too much fruit? ",
+        "Can over-indulging in fruit cause problems? ",
+        "Is it advisable to regulate fruit intake to a certain amount?",
         "Is it possible to eat too much fruit?"
       ],
       "responses": [
@@ -150,16 +179,15 @@
     {
       "tag": "9",
       "patterns": [
-        "Can drinking water assist in reducing weight",
-        " Can water consumption assist with losing weight",
-        " Does drinking water promote weight loss",
-        "Drinking water- Is it a significant contributor to weight loss",
-        " Can water intake contribute to weight loss",
-        " Is drinking water beneficial in weight reduction",
-        " Can water consumption facilitate the process of weight loss",
-        " Does drinking water boost weight loss",
-        " Drinking water for weight loss- Is it effective",
-        " Is there any connection between water intake and weight loss?",
+        "Can water consumption aid in weight loss?",
+        "Is drinking water a way to promote weight loss?",
+        "Does drinking water contribute to losing weight?",
+        "Can drinking water help you lose weight?",
+        "Is water consumption linked to weight loss?Does water intake assist in losing weight?",
+        "Can hydration support weight reduction?",
+        "Can water help you achieve weight loss goals?",
+        "Is there a connection between drinking water and weight loss?",
+        "Does drinking water play a role in weight loss?",
         "Can drinking water help with weight loss?"
       ],
       "responses": [
@@ -172,7 +200,16 @@
     {
       "tag": "10",
       "patterns": [
-        "Are all fats bad for you? Is every type of fat detrimental? Do all fats have negative effects on health? Is there not a single beneficial fat? Can any fat be considered healthy? Are none of the fats beneficial for the body? Is every kind of fat harmful? Is there no such thing as a good fat? Are there no fats that can contribute to good health? Is it accurate to say that all fats are bad for you?",
+        "Can any types of fats be considered good for your health? ",
+        "Do all fats have negative impacts on the body? ",
+        "What are the effects of consuming a diet high in fat? ",
+        "Are there any benefits to consuming foods high in fat? ",
+        "Can some fats be considered healthy for daily consumption? ",
+        "Is it true that all fats are unhealthy? ",
+        "Do different types of fats affect the body differently? ",
+        "Are low-fat diets always the healthiest option? ",
+        "What are the risks of consuming excessive amounts of fat? ",
+        "Can consuming fats in moderation be part of a healthy diet?",
         "Are all fats bad for you?"
       ],
       "responses": [
@@ -185,38 +222,16 @@
     {
       "tag": "11",
       "patterns": [
-        "Can eating spicy foods be beneficial for your health",
-        " can the consumption of spicy foods enhance your well-being",
-        " can spicy foods contribute positively to your overall health",
-        " can ingesting spicy foods result in health advantages",
-        " can consuming spicy foods have health benefits",
-        " can the consumption of spicy foods have positive effects on your health",
-        " can eating spicy foods have a positive impact on your physical well-being",
-        " can spicy foods lead to better health outcomes",
-        " can the intake of spicy foods improve your health",
-        " can spicy foods be beneficial to your health.",
-        "Can eating spicy foods be good for you?"
-      ],
-      "responses": [
-        [
-          "Eating spicy foods can help boost metabolism and reduce inflammation, which can be beneficial for overall health."
-        ]
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "11",
-      "patterns": [
-        "Can eating spicy foods be beneficial",
-        " healthy",
-        " advantageous",
-        " useful",
-        " profitable",
-        " valuable",
-        " constructive",
-        " productive",
-        " rewarding",
-        " and worthwhile?",
+        "1. Is it possible that consuming spicy foods has health benefits?",
+        "2. Are there any advantages to including spicy foods in your diet?",
+        "3. Can the consumption of spicy foods have positive effects on your body?",
+        "4. Could eating spicy foods potentially improve your well-being?",
+        "5. Is there any evidence to suggest that spicy foods may be beneficial for your health?",
+        "6. Might spicy foods be a healthy addition to your daily intake?",
+        "7. Is it true that spicy foods could have potential health benefits?",
+        "8. Can spiciness in food offer any health advantages?",
+        "9. Should spicy foods be considered a healthy food choice?",
+        "10. Are there any reasons to believe that consuming spicy foods could be good for you?",
         "Can eating spicy foods be good for you?"
       ],
       "responses": [
@@ -229,18 +244,16 @@
     {
       "tag": "12",
       "patterns": [
-        "What are some good sources of calcium for lactose intolerant individuals?",
-        "What are some sources of calcium for those intolerant of lactose?",
-        "What good sources of calcium can be found for those who cannot tolerate lactose?",
-        "What calcium sources are suitable for lactose intolerants?",
-        "For lactose intolerant individuals",
-        " what are some good calcium sources available?",
-        "What are some good calcium sources for individuals who are lactose intolerant?",
-        "Which calcium sources are suitable for individuals who do not tolerate lactose?",
-        "Lacking lactose tolerance",
-        " what are some good sources of calcium?",
-        "What are some calcium sources for the lactose intolerant population?",
-        "What are some sources of calcium that are suitable for those who cannot digest lactose?",
+        "What are some alternative sources of calcium for lactose intolerant individuals? ",
+        "For individuals who can't consume dairy, what are some sources of calcium? ",
+        "What are some good non-dairy sources of calcium for those who are lactose intolerant? ",
+        "What calcium-rich foods can lactose intolerant individuals consume? ",
+        "What are some options for lactose intolerant individuals looking to incorporate more calcium into their diet? ",
+        "What other foods besides dairy can provide sufficient calcium for individuals with lactose intolerance? ",
+        "What are some recommendations for calcium intake for lactose intolerant individuals? ",
+        "What are some plant-based sources of calcium for those with lactose intolerance? ",
+        "What are some natural sources of calcium for individuals who are sensitive to lactose? ",
+        "What calcium-rich options can lactose intolerant individuals add to their meals?",
         "What are some good sources of calcium for individuals who are lactose intolerant?"
       ],
       "responses": [
@@ -253,16 +266,16 @@
     {
       "tag": "13",
       "patterns": [
-        "Is it necessary to have breakfast every day?",
-        " Is it essential to eat breakfast each day?",
-        " Is breakfast consumption necessary daily?",
-        " Is breakfast consumption necessary every day?",
-        " Is it compulsory to eat breakfast every day?",
-        " Is it crucial to eat breakfast daily?",
-        " Is breakfast consumption obligatory daily?",
-        " Is breakfast consumption required daily?",
-        " Is it a must to have breakfast every day?",
-        " Is it vital to eat breakfast every day?",
+        "1. Must breakfast be consumed every day?",
+        "2. Is eating breakfast on a daily basis essential?",
+        "3. Should we eat breakfast every single day?",
+        "4. Is it important to have breakfast every day?",
+        "5. Do we need to eat breakfast daily?",
+        "6. Is breakfast consumption necessary on a daily basis?",
+        "7. Should breakfast be eaten every day?",
+        "8. Is it a requirement to eat breakfast every day?",
+        "9. Is daily breakfast consumption necessary?",
+        "10. Do we have to eat breakfast every day?",
         "Is it necessary to eat breakfast every day?"
       ],
       "responses": [
@@ -275,7 +288,16 @@
     {
       "tag": "14",
       "patterns": [
-        "Can intermittent fasting lead to healthy weight loss? Is intermittent fasting a healthy method for shedding pounds? Will intermittent fasting result in a healthy reduction of body weight? Might intermittent fasting be an effective and healthy way to lose weight? Is it healthy to utilize intermittent fasting to achieve weight loss? Does intermittent fasting support healthy weight loss efforts? Can one attain healthy weight loss through intermittent fasting? Would intermittent fasting be considered a healthy approach to weight loss? Is healthy weight loss possible through intermittent fasting?",
+        "1. Is it healthy to lose weight by adopting an intermittent fasting diet?",
+        "2. Could intermittent fasting be a safe approach to weight loss?",
+        "3. Is it possible to achieve healthy weight loss through intermittent fasting?",
+        "4. Is intermittent fasting considered a healthy weight loss method?",
+        "5. Can people lose weight in a healthy way with intermittent fasting?",
+        "6. Does intermittent fasting provide a healthy approach to weight loss?",
+        "7. Would you consider intermittent fasting to be a healthy way to lose weight?",
+        "8. Is it healthy to use intermittent fasting for weight loss purposes?",
+        "9. Is intermittent fasting a viable healthy option for weight loss?",
+        "10. How healthy is intermittent fasting as a weight loss method?",
         "Can intermittent fasting be a healthy way to lose weight?"
       ],
       "responses": [
@@ -288,8 +310,16 @@
     {
       "tag": "15",
       "patterns": [
-        "What are some good sources of iron for vegetarians?What are some iron-rich foods for those following a vegetarian diet?What are some plant-based sources of iron?Where can I find iron as a vegetarian?As a vegetarian",
-        " what are some sources of iron I can consume?What foods can vegetarians eat to increase their iron intake?Are there any vegetables that are high in iron for vegetarians?What are some non-meat options for getting enough iron as a vegetarian?What are some meatless options for boosting iron levels?Can you suggest some plant-based sources of iron for vegetarians?",
+        "What vegetarian-friendly foods are high in iron? ",
+        "What are some iron-rich plant-based options for non-meat eaters? ",
+        "Can you recommend any meat-free sources of iron? ",
+        "Which plant foods contain sufficient amounts of iron for vegetarians? ",
+        "Where can vegetarians find iron in their diet? ",
+        "What are some meatless alternatives that are good for iron intake? ",
+        "What are some veggie-based options for getting enough iron in your diet? ",
+        "What plant-based foods are best for increasing iron levels in a vegetarian diet? ",
+        "What options are available for vegetarians to meet their iron needs? ",
+        "Do you have any suggestions for iron-rich foods that are suitable for vegetarians?",
         "What are some good sources of iron for vegetarians?"
       ],
       "responses": [
@@ -302,7 +332,16 @@
     {
       "tag": "16",
       "patterns": [
-        " Can consuming excessive protein be harmful?"," Might one risk negative consequences from overeating protein?"," Is it feasible to consume protein in excess?"," Could an excessive protein intake be detrimental to one's health?"," May an overabundance of protein be unhealthy?"," Is it possible to consume too much protein?"," Can an excessive amount of protein have negative effects?"," Might indulging in too much protein be detrimental?"," Could a surplus of protein be harmful to the body?"," May one experience adverse effects from over-ingestion of protein?",
+        "Can protein consumption exceed healthy levels?",
+        "What happens when one consumes an excessive amount of protein?",
+        "Is there such a thing as eating an excessive amount of protein?",
+        "How much protein can be consumed before it becomes harmful?",
+        "Does an overconsumption of protein have negative consequences?",
+        "Can protein intake become unhealthy?",
+        "What are the dangers of consuming too much protein?",
+        "At what point does protein consumption become detrimental to health?",
+        "Is it necessary to monitor protein intake?",
+        "Can excessive protein lead to health issues?",
         "Is it possible to eat too much protein?"
       ],
       "responses": [
@@ -315,16 +354,16 @@
     {
       "tag": "17",
       "patterns": [
-        "How much sugar is excessive",
-        " how much sugar is over-the-top",
-        " how much sugar is going too far",
-        " how much sugar is crossing the line",
-        " how much sugar is too much",
-        " how much sugar is a lot",
-        " how much sugar is not recommended",
-        " how much sugar is dangerous",
-        " how much sugar is harmful",
-        " how much sugar is unhealthy?",
+        "",
+        "What is the maximum amount of sugar one should consume?",
+        "What's the highest level of sugar that can be safe for one's health?How much sugar intake is deemed excessive?",
+        "What level of sugar in your diet is unhealthy?",
+        "When does sugar consumption become harmful?",
+        "What's the recommended limit for sugar consumption?",
+        "How much sugar can one consume daily without adverse health effects?",
+        "What's the safe or acceptable level of sugar consumption?",
+        "What is the maximum daily sugar intake recommended?",
+        "When is sugar considered to be too much?",
         "How much sugar is too much?"
       ],
       "responses": [
@@ -337,23 +376,16 @@
     {
       "tag": "18",
       "patterns": [
-        "Are all carbohydrates bad for you?",
-        " Are carbohydrates all bad for you?",
-        " Are bad all carbohydrates for you?",
-        " For you",
-        " are all carbohydrates bad?",
-        " For you",
-        " are carbohydrates all bad?",
-        " For you",
-        " are bad all carbohydrates?",
-        " Bad for you",
-        " are all carbohydrates?",
-        " Bad for you",
-        " are carbohydrates all?",
-        " Bad for you",
-        " are all carbohydrates bad? ",
-        " Bad",
-        " are all carbohydrates for you?",
+        "Are carbohydrates always harmful to the body? ",
+        "Can carbohydrates be detrimental to one's health? ",
+        "Is it true that all carbohydrates are unhealthy? ",
+        "Are there any benefits to consuming carbohydrates? ",
+        "Do all types of carbohydrates have negative effects on health? ",
+        "Can carbohydrates have adverse effects on the body? ",
+        "Are there any healthy carbohydrates? ",
+        "Is it necessary to completely eliminate carbohydrates from one's diet? ",
+        "Can carbohydrates contribute to weight gain? ",
+        "Are the potential health risks of carbohydrates well-established?",
         "Are all carbohydrates bad for you?"
       ],
       "responses": [
@@ -366,8 +398,16 @@
     {
       "tag": "19",
       "patterns": [
-        "Can a plant-based diet assist in preventing specific illnesses? Can a diet based on plants help prevent particular ailments? Can the consumption of only plant-based foods deter specific diseases? Could plant-based eating aid in the prevention of certain health conditions? In stopping some diseases",
-        " can a diet focused on plant-based foods be beneficial? Is a plant-based diet effective in preventing particular disorders? Can avoiding animal products in one's diet prevent certain diseases? Might plant-based eating help protect against particular ailments? Will consuming solely plant-based foods assist in preventing distinct diseases? Does a plant-based diet have the potential to safeguard against specific diseases?",
+        "Can a plant-based diet aid in preventing particular ailments?",
+        "Is there a relationship between consuming a plant-based diet and the prevention of certain diseases?",
+        "Could consuming a plant-based diet potentially prevent certain diseases?",
+        "Is a plant-based diet effective in the prevention of specific ailments?",
+        "Might a plant-based diet lower the risk of certain diseases?",
+        "Can certain diseases be prevented by adopting a plant-based diet?",
+        "Will a plant-based diet help protect against particular diseases?",
+        "Is it possible to prevent certain diseases by following a plant-based diet?",
+        "Does a plant-based diet have the potential to prevent certain diseases?",
+        "Is there evidence to suggest that a plant-based diet may help prevent certain diseases?",
         "Can eating a plant-based diet help prevent certain diseases?"
       ],
       "responses": [
@@ -380,15 +420,14 @@
     {
       "tag": "20",
       "patterns": [
-        "Can exercise reduce anxiety",
-        " depression?Exercise",
-        " can it reduce anxiety",
-        " depression?Can anxiety and depression decrease with exercise?Can performing exercise reduce anxiety and depression?Exercise help with reducing anxiety",
-        " depression?Is it true that exercise decreases anxiety",
-        " depression?Can anxiety",
-        " depression be reduced by exercise?Is reducing anxiety",
-        " depression possible with exercise?Can exercise lower anxiety",
-        " depression?",
+        "Can physical activity assist in lowering symptoms of anxiety and depression?Might exercise be beneficial in reducing levels of anxiety and depression?",
+        "Could engaging in exercise possibly alleviate symptoms of anxiety and depression?",
+        "Is it true that physical activity can help decrease symptoms of anxiety and depression?Would exercising regularly potentially help reduce symptoms of anxiety and depression?",
+        "Is there a correlation between exercise and the reduction of anxiety and depression symptoms?",
+        "Can working out have a positive impact on anxiety and depression symptoms?",
+        "Does exercise have the potential to lower symptoms of anxiety and depression?",
+        "Is there a possibility that being physically active could ease symptoms of anxiety and depression?",
+        "May exercise be an effective way to reduce symptoms of anxiety and depression?",
         "Can exercise help reduce anxiety and depression?"
       ],
       "responses": [
@@ -401,7 +440,16 @@
     {
       "tag": "21",
       "patterns": [
-        "Is consuming caffeine during pregnancy safe? Is it safe to drink caffeine while pregnant? Is it safe for pregnant women to consume caffeine? Can caffeine be safely consumed during pregnancy? Does caffeine pose a risk to pregnant women? Can pregnant women safely drink caffeine? Should pregnant women avoid caffeine consumption? Is it okay to consume caffeine while pregnant? Does consuming caffeine pose a threat to pregnancy? Is caffeine consumption safe during pregnancy?",
+        "Can caffeine be taken during pregnancy without harm?",
+        "Is it safe to drink caffeinated beverages while pregnant?",
+        "Is consuming caffeine while pregnant recommended?",
+        "Is it advisable to consume caffeine while pregnant?",
+        "Can pregnant women consume caffeine?",
+        "Is it dangerous for pregnant women to consume caffeine?",
+        "What are the risks of consuming caffeine during pregnancy?",
+        "Is it harmful to drink coffee while pregnant?",
+        "Can caffeine intake have negative effects on pregnancy?",
+        "What is the effect of caffeine consumption during pregnancy?",
         "Is it safe to consume caffeine during pregnancy?"
       ],
       "responses": [
@@ -414,7 +462,16 @@
     {
       "tag": "22",
       "patterns": [
-        "What are some good sources of vitamin C?What are some good vitamin C sources?Which foods are good sources of vitamin C?What are some vitamin C-rich foods?Where can vitamin C be found?What are some natural vitamin C sources?What fruits and vegetables contain vitamin C?What are some dietary sources of vitamin C?What are some food sources of vitamin C?What are some sources rich in vitamin C?",
+        "What are some excellent sources of vitamin C?",
+        "What are the best sources of vitamin C?",
+        "Which foods contain vitamin C?",
+        "What are some natural sources of vitamin C?",
+        "What are some healthy sources of vitamin C?",
+        "What fruits and vegetables are high in vitamin C?",
+        "What are some common sources of vitamin C?",
+        "What foods are rich with vitamin C?",
+        "What are some recommended sources of vitamin C?",
+        "What are some reliable sources of vitamin C?",
         "What are some good sources of vitamin C?"
       ],
       "responses": [
@@ -427,16 +484,15 @@
     {
       "tag": "23",
       "patterns": [
-        "Can drinking alcohol be integrated into a healthy lifestyle",
-        "Is it possible to have a healthy lifestyle while drinking alcohol",
-        "Is drinking alcohol able to be incorporated into a healthy way of life",
-        "Can alcohol consumption be a part of a healthy lifestyle",
-        "Is it feasible for drinking alcohol to be a component of a healthy lifestyle",
-        "Can a healthy lifestyle include the consumption of alcohol",
-        "Can alcohol be included in a healthy lifestyle",
-        "Is it possible to maintain a healthy lifestyle while drinking alcohol",
-        "Can drinking alcohol be compatible with a healthy lifestyle",
-        "Is alcohol consumption compatible with a healthy lifestyle",
+        "Can alcohol consumption be considered a healthy lifestyle choice?Is drinking alcohol consistent with a healthy way of life?",
+        "Does consuming alcohol align with leading a healthy lifestyle?",
+        "Can drinking alcohol support an overall healthy lifestyle?",
+        "Might alcohol consumption contribute to a healthy lifestyle?",
+        "Is it possible for drinking alcohol to be included in a healthy lifestyle?",
+        "Could alcohol be a component of a healthy way of living?",
+        "Is it feasible for alcohol to play a role in a healthy lifestyle?",
+        "Is there a possibility that alcohol can be part of a healthy lifestyle?",
+        "Is drinking alcohol compatible with having a healthy lifestyle?",
         "Can drinking alcohol be part of a healthy lifestyle?"
       ],
       "responses": [
@@ -449,7 +505,16 @@
     {
       "tag": "24",
       "patterns": [
-        "How can I increase my vegetable intake? What are some ways to eat more vegetables? How can I include more veggies in my meals? What are some tips for adding vegetables to my diet? Can you suggest ways to incorporate more vegetables into my meals? How can I make sure I'm eating enough vegetables? What are some creative ways to eat more vegetables? What are some recipes that use a lot of vegetables? Are there any vegetable-based snacks I can try? How can I sneak vegetables into my meals?",
+        "How can I increase my vegetable intake?",
+        "What are some ways to add more vegetables to my meals?",
+        "What are some creative ideas for incorporating vegetables into my diet?",
+        "What are some vegetables I can easily add to my diet?",
+        "What are some healthy vegetable-based meals I can try?",
+        "What are some easy ways to incorporate vegetables into my snacks?",
+        "What are some tasty vegetable dishes I can experiment with?",
+        "What are some common vegetables that can substitute for less healthy options in my current diet?",
+        "What are some reasons why including more vegetables in my diet is important?",
+        "What are some online resources for finding vegetable-based recipes to try?",
         "How can I incorporate more vegetables into my diet?"
       ],
       "responses": [
@@ -462,15 +527,16 @@
     {
       "tag": "25",
       "patterns": [
-        "Is taking a multivitamin supplement necessary",
-        " Necessary to take a multivitamin supplement? Would taking a multivitamin supplement be necessary",
-        " Multivitamin supplement-taking is necessary",
-        " Taking a multivitamin supplement is necessary",
-        " Is a multivitamin supplement necessary",
-        " Necessity for a multivitamin supplement",
-        " Multivitamin supplement necessary",
-        " Is it a necessity to take a multivitamin supplement",
-        " Must one take a multivitamin supplement?",
+        "Can a multivitamin supplement be skipped?",
+        "Is taking a multivitamin supplement essential?",
+        "Is it compulsory to take multivitamin supplements?",
+        "Must multivitamin supplements be consumed regularly?",
+        "Do we need to take a multivitamin supplement?",
+        "Is a multivitamin supplement necessary?",
+        "Are there any alternatives to a multivitamin supplement?",
+        "Would it make a difference to take or not take multivitamin supplements?",
+        "What happens when we don't take a multivitamin supplement?",
+        "Are multivitamin supplements crucial for health?",
         "Is it necessary to take a multivitamin supplement?"
       ],
       "responses": [
@@ -483,16 +549,16 @@
     {
       "tag": "26",
       "patterns": [
-        "How can I decrease the chances of developing heart disease",
-        "What measures can I take to minimize my risk of heart disease",
-        "What are the ways to lower my risk of heart disease",
-        "In what ways can I mitigate my risk of developing heart disease",
-        "What strategies can I adopt to reduce the likelihood of heart disease",
-        "What steps can I take to lower my risk of heart disease",
-        "What precautions can I take to prevent heart disease",
-        "What actions can I take to diminish my risk of heart disease",
-        "How can I minimize the risk of heart disease",
-        "What are the methods to reduce the risk of heart disease?",
+        "What steps can I take to lower my risk of heart disease? ",
+        "What strategies can I implement to decrease my chances of developing heart disease? ",
+        "What lifestyle changes should I make to prevent heart disease? ",
+        "What are ways to minimize my risk of heart disease? ",
+        "How can I protect myself against heart disease? ",
+        "What are some preventative measures I can take against heart disease? ",
+        "What actions can I take to reduce my risk of heart disease? ",
+        "What habits should I adopt to ward off heart disease? ",
+        "What are some practical ways to decrease my risk of heart disease? ",
+        "How can I improve my heart health and prevent heart disease?",
         "How can I reduce my risk of heart disease?"
       ],
       "responses": [
@@ -505,16 +571,16 @@
     {
       "tag": "27",
       "patterns": [
-        "Is it conceivable to be overweight and still be healthy?",
-        " Can one be overweight and still be healthy?",
-        " Is it feasible to be both overweight and healthy?",
-        " Can being overweight and healthy happen together?",
-        " Is it viable to be healthy despite being overweight?",
-        " Can health and overweight status coexist?",
-        " Is it possible for someone to be healthy despite being overweight?",
-        " Might someone be healthy in spite of being overweight?",
-        " Can one be healthy even if overweight?",
-        " Is it achievable to maintain good health despite being overweight?",
+        "Can you still be healthy if you are overweight?",
+        "Is it feasible to maintain good health while being overweight?",
+        "Is it possible to be in good health despite being overweight?",
+        "Can you be healthy even if you are overweight?",
+        "Is it viable to sustain your health while being overweight?",
+        "Is it possible to maintain good physical condition while being overweight?",
+        "Can you be overweight and lead a healthy lifestyle at the same time?",
+        "Is it conceivable to be overweight and yet healthy?",
+        "Is it possible to be healthy with excess weight?",
+        "Can excellent health be maintained in spite of being overweight?",
         "Is it possible to be overweight and still be healthy?"
       ],
       "responses": [
@@ -527,7 +593,16 @@
     {
       "tag": "28",
       "patterns": [
-        "Can some foods enhance cognitive abilities? Is it possible for specific foods to increase brainpower? Does the consumption of particular foods improve mental performance? Might there be foods that can boost brain function? Can specific types of food enhance brain function? Is it feasible that certain foods could boost cognitive function? Is brain function enhancement possible through particular food? Does brain function improvement result from eating certain foods? Can particular foods aid in improving brain function?",
+        "Can consumption of particular foods enhance brain function? ",
+        "Is it possible for certain foods to improve cognitive abilities?",
+        "Are there any foods that can increase brain power?",
+        "Which foods can promote better brain performance?",
+        "Do some foods have the ability to boost brain function?",
+        "Is there a correlation between certain foods and increased brain function?",
+        "Are there any dietary choices that can enhance brain performance?",
+        "Can food intake have an impact on brain function?",
+        "What foods are beneficial for boosting cognitive function?",
+        "Do specific foods have the ability to improve brain function?",
         "Can certain foods boost brain function?"
       ],
       "responses": [
@@ -540,7 +615,16 @@
     {
       "tag": "29",
       "patterns": [
-        " Can foods cause acne?"," Does diet affect acne?"," Are certain foods linked to acne?"," Do some foods trigger acne?"," Can specific foods lead to acne breakouts?"," Is there a connection between acne and certain foods?"," Can the consumption of particular foods cause acne?"," Does acne have a correlation with certain foods?"," Is it possible that foods cause acne?"," Can one's diet be a cause of acne?",
+        "Can food trigger acne breakouts?",
+        "What kinds of food can provoke acne?",
+        "Do certain diets contribute to acne?",
+        "Is there a relationship between food and acne?",
+        "Could specific foods lead to acne formation?",
+        "Are there foods that are known to aggravate acne?",
+        "Do certain ingredients in food cause acne?",
+        "Can foods affect skin health and cause acne?",
+        "Are there any foods to avoid for clearer skin?",
+        "Can changing your diet help reduce acne outbreaks?",
         "Can certain foods cause acne?"
       ],
       "responses": [
@@ -553,16 +637,16 @@
     {
       "tag": "30",
       "patterns": [
-        "Is it necessary to consume organic food?",
-        " Is it a must to eat organic food?",
-        " Must organic food be consumed?",
-        " Should one consume solely organic food?",
-        " Can one survive without consuming organic food?",
-        " Is organic food consumption mandatory?",
-        " Is it imperative to consume organic food?",
-        " Is organic food intake necessary?",
-        " Is it vital to only consume organic food?",
-        " Is the consumption of organic food essential?",
+        "Is consuming organic food necessary?",
+        "Do we have to eat organic food?",
+        "Is it important to consume organic food?",
+        "Should we only eat organic food?",
+        "Can we survive without eating organic food?",
+        "Is non-organic food harmful to us?",
+        "What are the benefits of consuming organic food?",
+        "Is organic food worth the cost?",
+        "Can we trust non-organic food?",
+        "Is it better to invest in organic food?",
         "Is it necessary to consume organic food?"
       ],
       "responses": [
@@ -575,7 +659,16 @@
     {
       "tag": "31",
       "patterns": [
-        "Can the consumption of probiotics have positive effects on gut health? Might the intake of probiotics offer benefits for the gut? Does the ingestion of probiotics improve the health of the gut? Could taking probiotics be advantageous for gut health? Is it possible that the use of probiotics enhances the health of the gut? Would consuming probiotics be beneficial for good gut health? May probiotic consumption result in improved gut health? Is there potential for probiotics to promote good gut health? Can probiotics have a positive impact on the health of the gut? Shall probiotic consumption be considered beneficial for gut health?",
+        "Can probiotics have a positive effect on gut health? ",
+        "Is it beneficial to consume probiotics for gut health? ",
+        "Do probiotics promote gut health when consumed? ",
+        "Are there advantages to taking probiotics for gut health? ",
+        "Can probiotics improve gut health? ",
+        "Is gut health enhanced by probiotic consumption? ",
+        "Do probiotics aid in the maintenance of gut health? ",
+        "Are there benefits to incorporating probiotics into one's diet for gut health? ",
+        "Can probiotics contribute to better gut health? ",
+        "Is it recommended to consume probiotics for improved gut health?",
         "Can consuming probiotics be beneficial for gut health?"
       ],
       "responses": [
@@ -588,8 +681,16 @@
     {
       "tag": "32",
       "patterns": [
-        "Are there any health benefits to drinking tea? Are drinking tea beneficial to health? Is tea drinking related to improved health? Does tea consumption promote health? Drinking tea",
-        " does it have any health benefits? Does tea have any health benefits? Can tea positively impact health? Is there any way tea is good for health? Do health benefits come along with tea drinking? Is tea good for health?",
+        "Can tea bring about any health benefits?",
+        "Does drinking tea have any positive impact on our health?",
+        "Is there any health advantage to drinking tea?",
+        "Can tea consumption lead to any healthier outcomes?",
+        "What are the health benefits of drinking tea?",
+        "Is drinking tea good for our health in any way?",
+        "Can tea be beneficial to our health?",
+        "Does tea have any health benefits?",
+        "What health gains can we expect from drinking tea?",
+        "Is it true that drinking tea has health benefits?",
         "Are there any health benefits to drinking tea?"
       ],
       "responses": [
@@ -602,16 +703,16 @@
     {
       "tag": "33",
       "patterns": [
-        "Can red meat consumption negatively affect your health",
-        " Is it possible for excess consumption of red meat to be harmful to one's health",
-        " Does consuming a lot of red meat have potential negative health consequences",
-        " Might eating too much red meat be detrimental to one's health",
-        " Could excessive consumption of red meat be damaging to one's health",
-        "Can red meat intake be hazardous to one's health",
-        "Is it possible for overconsumption of red meat to have adverse health effects",
-        " Might eating large quantities of red meat have negative health implications",
-        " Could an excessive amount of red meat in one's diet be harmful to health",
-        " Can a high intake of red meat cause harm to one's health?",
+        "Can indulging in excess amounts of red meat have negative effects on your health?",
+        "What are the potential health risks of consuming too much red meat?",
+        "Is there a correlation between consuming large quantities of red meat and detrimental health outcomes?",
+        "Can an increased intake of red meat lead to harm on your overall physical wellbeing?",
+        "Are there any implications on your health from eating an abundance of red meat?",
+        "Does a diet high in red meat have adverse effects on your health?",
+        "Are there any detrimental effects to your health from eating copious amounts of red meat?",
+        "Can consuming excessive red meat lead to any negative health ramifications?",
+        "Is it possible that eating a lot of red meat could harm your health?",
+        "Is red meat intake linked to any adverse health outcomes?",
         "Can eating a lot of red meat be harmful to your health?"
       ],
       "responses": [
@@ -624,16 +725,16 @@
     {
       "tag": "34",
       "patterns": [
-        "What are some good sources of plant-based protein? ",
-        " What sources of plant-based proteins are available? ",
-        " What plant-based foods have high protein content? ",
-        " Which plant-based sources provide the most protein? ",
-        " Where can I find protein in a plant-based diet? ",
-        " What are the top recommended plant-based protein sources? ",
-        " List some plant-based protein options? ",
-        " Can you suggest some good sources of plant-based protein? ",
-        " Are there any exceptional plant-based protein sources? ",
-        " What are the best plant-based protein sources?",
+        "What are some excellent sources of protein from plants? ",
+        "Which are some high-quality sources of protein that come from plants? ",
+        "What plant-based sources of protein are recommended? ",
+        "What are some reliable sources of protein that come from plants? ",
+        "What are some plant-based protein sources that are good for you? ",
+        "What are some recommended sources of protein from a plant-based diet? ",
+        "Can you suggest some plant-based sources of protein? ",
+        "What are some good options for plant-based protein? ",
+        "Which plant-based protein sources are worth considering? ",
+        "What are some of the best sources of protein that come from plants?",
         "What are some good sources of plant-based protein?"
       ],
       "responses": [
@@ -646,9 +747,16 @@
     {
       "tag": "35",
       "patterns": [
-        "Can you receive sufficient vitamin D from food exclusively? Is it achievable to obtain a satisfying quantity of vitamin D through food only? Can the required amount of vitamin D be obtained by consuming food alone? Is it likely to get enough vitamin D without supplements? Could you get enough vitamin D from your diet alone? Is it within the realm of possibility to meet your vitamin D requirements from food alone? Do you need to take supplements to reach your vitamin D requirements",
-        " or can you get enough from food? Is it feasible to obtain adequate vitamin D from your diet without using supplements? Is it possible to fulfill your daily vitamin D needs without taking supplements",
-        " simply by eating food?",
+        "Can adequate vitamin D be obtained solely through food intake?",
+        "Is it feasible to solely rely on food to obtain enough vitamin D?",
+        "Is food alone sufficient to provide a satisfactory amount of vitamin D?",
+        "Are there enough sources of vitamin D in food to meet daily requirements?",
+        "Is it possible to achieve sufficient vitamin D intake without supplements?",
+        "Can you obtain adequate vitamin D levels purely by eating healthy foods?",
+        "Is food an adequate source of vitamin D without being exposed to sunlight?",
+        "Without sunlight exposure, can vitamin D be obtained through diet alone?",
+        "Can a balanced diet provide the necessary amount of vitamin D without sunlight exposure?",
+        "Is it feasible to depend solely on dietary sources for meeting vitamin D needs?",
         "Is it possible to get enough vitamin D from food alone?"
       ],
       "responses": [
@@ -661,7 +769,16 @@
     {
       "tag": "36",
       "patterns": [
-        "Can foods aid in enhancing the quality of sleep? Is it possible that certain foods can help with sleep? Can sleep quality be improved by eating certain foods? Is it true that some foods can contribute to better sleep quality? Does eating certain foods lead to better sleep quality? Can a good night's sleep be enhanced through the consumption of certain foods? Are there particular foods that can improve the quality of sleep? Do some foods have the potential to improve the quality of sleep? Is it possible for certain foods to help improve the quality of sleep? Might certain foods be beneficial for improving sleep quality?",
+        "Can food items have a positive impact on sleep quality?",
+        "What types of foods may help enhance sleep quality?",
+        "Are there certain foods that can improve the quality of your sleep?",
+        "Can you improve your sleep quality with specific foods?",
+        "Do certain foods aid in improving sleep quality?",
+        "What food can help enhance the quality of your sleep?",
+        "Which foods can positively impact sleep quality?",
+        "Is it possible to improve the quality of your sleep through your diet?",
+        "Can a change in diet aid in improving sleep quality?",
+        "Are there any foods that may help with sleep quality?",
         "Can certain foods help improve sleep quality?"
       ],
       "responses": [
@@ -674,7 +791,16 @@
     {
       "tag": "37",
       "patterns": [
-        "Can foods enhance the immune system? Do particular foods bolster the immune system? May certain foods elevate the immune system? Is it true that some foods heighten the immune system? Is the immune system enhanced by specific foods? Are there foods that strengthen the immune system? Can the immune system be improved by consuming certain foods? Do some foods empower the immune system? Are particular foods beneficial for the immune system? Could diet have an impact on the immune system?",
+        "Is it possible for certain foods to enhance the immune system?",
+        "Are there any foods that can increase the strength of our immune system?",
+        "Can our immune system be strengthened through the consumption of certain foods?",
+        "Do specific foods have the ability to improve our immune system's resistance?",
+        "Is there evidence to suggest that some foods can improve our immune system?",
+        "Can we naturally improve our immune system by eating certain foods?",
+        "Is there a connection between the consumption of certain foods and improved immune system function?",
+        "Are there any foods that can stimulate our immune system?",
+        "Can we rely on certain foods to increase the strength of our immune system?",
+        "Is it true that some foods can help to boost our immune system's health?",
         "Can certain foods boost the immune system?"
       ],
       "responses": [
@@ -687,17 +813,16 @@
     {
       "tag": "38",
       "patterns": [
-        "What are some good sources of calcium for those who do not consume dairy?",
-        "What are some calcium-rich foods for people who do not eat dairy?",
-        "For non-dairy consumers",
-        " what are some sources of calcium?",
-        "What types of food are high in calcium for those who don't consume dairy products?",
-        "Where can individuals who avoid dairy find good sources of calcium?",
-        "Which foods provide calcium for those who do not consume dairy?",
-        "For those who do not consume dairy",
-        " what are some recommended calcium sources?",
-        "What are some alternatives to dairy for obtaining calcium?",
-        "What are some good sources of calcium for vegans or lactose intolerant individuals? What are some non-dairy sources of calcium?",
+        "What are some alternative sources of calcium for individuals who avoid dairy?",
+        "What are some calcium-rich foods for individuals who do not consume dairy products?",
+        "What are the best non-dairy sources of calcium?",
+        "What plant-based foods are high in calcium?",
+        "What foods can I eat to get calcium if I don't consume dairy?",
+        "What minerals and nutrients can provide calcium for those avoiding dairy?",
+        "What are some ways for non-dairy eaters to get the daily requirement of calcium?",
+        "What are some vegan sources of calcium?",
+        "What non-milk options are available for meeting the recommended calcium intake?",
+        "What non-dairy products are high in calcium?",
         "What are some good sources of calcium for those who do not consume dairy?"
       ],
       "responses": [
@@ -710,16 +835,16 @@
     {
       "tag": "39",
       "patterns": [
-        "Are all fats harmful to you?",
-        " Are all fats detrimental to you?",
-        " Are all fats unhealthy for you?",
-        " Are all fats disadvantageous to you?",
-        " Are all fats injurious to you?",
-        " Are all fats damaging to you?",
-        " Are all fats deleterious to you?",
-        " Are all fats noxious to you?",
-        " Are all fats pernicious to you?",
-        " Are all fats toxic to you?",
+        "Are there any good fats for you? ",
+        "Can some fats be healthy for your body? ",
+        "Are all types of fats harmful? ",
+        "Is it true that fats can be beneficial to your health? ",
+        "Do different types of fats have varying impacts on your well-being? ",
+        "Can fats provide any advantages if consumed in moderation? ",
+        "Do you need to completely avoid all fats? ",
+        "Are there certain fats that are better for you than others? ",
+        "Are all fats equally unhealthy? ",
+        "Is it possible for fats to be beneficial in small amounts?",
         "Are all fats bad for you?"
       ],
       "responses": [
@@ -732,15 +857,16 @@
     {
       "tag": "40",
       "patterns": [
-        "Can certain foods aggravate arthritis symptoms?",
-        " Could arthritis symptoms worsen with certain foods?",
-        " Does the consumption of certain foods lead to worse arthritis symptoms?",
-        " Is it possible for arthritis symptoms to worsen due to certain foods?",
-        " Might certain foods exacerbate symptoms of arthritis?",
-        " Would certain foods make arthritis symptoms worse?",
-        " Do some foods worsen arthritis symptoms?",
-        " Are there certain foods that can worsen arthritis symptoms?",
-        " Do certain foods heighten arthritis symptoms?Would specific foods aggravate arthritis symptoms?",
+        "Can arthritis symptoms be exacerbated by certain types of food?",
+        "Do certain foods deteriorate the symptoms of arthritis?",
+        "Is it possible for certain foods to worsen symptoms of arthritis?",
+        "Can consumption of particular foods worsen arthritis symptoms?",
+        "Are there foods that can worsen arthritis symptoms?",
+        "Might certain foods aggravate arthritis symptoms?",
+        "Do some foods exacerbate arthritis symptoms?",
+        "Can food cause arthritis symptoms to worsen?",
+        "Is there a link between certain foods and worsening arthritis symptoms?",
+        "Are certain foods capable of worsening arthritis symptoms?",
         "Can certain foods worsen arthritis symptoms?"
       ],
       "responses": [
@@ -753,16 +879,16 @@
     {
       "tag": "41",
       "patterns": [
-        "How can I decrease my sugar consumption",
-        " lower my sugar intake",
-        " cut down on sugar intake",
-        " minimize my sugar intake",
-        " reduce sugar consumption",
-        " limit my sugar intake",
-        " control my sugar intake",
-        " curtail my sugar intake",
-        " shrink my sugar intake",
-        " and trim down on sugar intake?",
+        "How do I decrease the amount of sugar I consume?",
+        "What are some methods for cutting down on sugar in my diet?",
+        "In what ways can I lower my sugar consumption?",
+        "What are some effective techniques for reducing my sugar intake?",
+        "How can I limit the amount of sugar I consume on a daily basis?",
+        "What approaches can I use to reduce my sugar intake?",
+        "Are there any tips for reducing my consumption of sugary foods and drinks?",
+        "What changes can I make to my diet to decrease my sugar intake?",
+        "How can I reduce my sugar intake without feeling deprived?",
+        "What are some strategies for gradually reducing my sugar consumption?",
         "How can I reduce my sugar intake?"
       ],
       "responses": [

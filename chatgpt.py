@@ -13,16 +13,16 @@ with open("FoodQandA.json", 'r') as f:
 c = 1
 for intent in intents['intents']:
     print(c)
-    if c < 35:
+    if c < 41:
         c += 1
         continue
     string = intent['patterns'][0]
-    message = "Rewrite the question " + string + " 10 times while separating each question with commas and no space"
+    message = "Rewrite the question " + string + " 10 times, don't number each question, separate each question with a comma"
     payload = "{\"model\": \"gpt-3.5-turbo\",\"messages\": [{\"role\": \"user\", \"content\": \"" + message + "\"}]}"
     conn.request("POST", "/v1/", payload, headers)
     res = conn.getresponse()
     data = json.loads(res.read())
-    ans = data['choices'][0]['message']['content'].replace("\n", "").split(",")
+    ans = data['choices'][0]['message']['content'].replace("\n\n","").replace("\n","$<3$").split("$<3$")
     ans.append(string)
     tmp = {}
     tmp["tag"] = intent['tag']
@@ -32,6 +32,8 @@ for intent in intents['intents']:
     tmp["responses"] = [intent['responses']]
     tmp["context_set"] = ""
     end["intents"].append(tmp)
+    # print(end)
+    # break
     c += 1
     obj = json.dumps(end)
     with open("intents.json", "w") as f:
