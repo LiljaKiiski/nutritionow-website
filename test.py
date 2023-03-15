@@ -1,6 +1,5 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
 
 import numpy
 import tflearn
@@ -9,7 +8,10 @@ import random
 import sys
 
 import json
-with open('nutritionapp/static/FoodQandA.json') as file:
+
+stemmer = LancasterStemmer()
+
+with open('FoodQandA.json') as file:
     data = json.load(file)
 
 
@@ -18,7 +20,13 @@ labels = []
 docs_x = []
 docs_y = []
 
-print(data)
+for row in data:
+    #print(data[row]["Question"])
+    wrds = nltk.word_tokenize(data[row]["Question"])
+    #words.extend(wrds)
+    #docs_x.append(wrds)
+    #docs_y.append(data[row]["Num"])
+
 sys.exit()
 
 for intent in data['intents']:
