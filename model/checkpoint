@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/lilja/ai-nutrition-thing/model/model.tflearn"
-all_model_checkpoint_paths: "/home/lilja/ai-nutrition-thing/model/model.tflearn"
+model_checkpoint_path: "/home/lilja/ai-nutrition-thing/model/modell.h5"
+all_model_checkpoint_paths: "/home/lilja/ai-nutrition-thing/model/modell.h5"
