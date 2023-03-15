@@ -1,3 +1,13 @@
+import tensorflow
+import tflearn
+import sys
+
+model = tensorflow.keras.models.load_model('model.tflearn.data-00000-of-00001')
+
+model.summary()
+
+sys.exit()
+
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
 

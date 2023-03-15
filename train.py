@@ -78,4 +78,4 @@ model = tflearn.DNN(net)
 #Training and saving model
 
 model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
-model.save("model.tflearn")
+model.save('mymodel')
