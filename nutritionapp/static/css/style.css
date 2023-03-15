@@ -50,17 +50,25 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     font-size: 30px;
 }
 
-.page{
-    font-size: 30px;
-    color:rgb(240, 128, 0);
-    padding-left:2.5%;
-    padding-right: 2.5%;
-	margin-bottom: 1%;
-	margin-top: 1%;
+/* Navbar */
+
+#navBar {
+    text-align: left;
 }
 
-#navBar{
-    text-align: left;
+.page {
+    font-size: 40px;
+    color:rgb(240, 128, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.logo {
+    width: 50px;
+    float: left;
+    padding: 10px
 }
 
 #input{
