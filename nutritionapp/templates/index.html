@@ -1,28 +1,31 @@
-{% load static %}
 <html>
-	<head>
-		<title>NutritioNow</title>
-		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-		<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> 
-		<script src="https://kit.fontawesome.com/d4b1dbcaad.js" crossorigin="anonymous"></script>
-	</head>
+    <head>
+        <title>NutritioNow</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"> 
+        <script src="https://kit.fontawesome.com/d4b1dbcaad.js" crossorigin="anonymous"></script>
+    </head>
 
-	<body>
-		<div class="top">
-			<h1>NutritioNow</h1> <!-- better name later-->
-		</div>
+    <body>
+        <div id = 'navBar'>
+            <button id = "page">Home</button>
+            <button id = "page">About Us</button>
+        </div>
+        <div id="top">
+            <h1>NutritioNow</h1> <!-- better name later-->
+            <p>insert cool message about the goals</p>
+        </div>
 
-		<h2>Ask about anything Nutrition or Health related!</h2>
+        <h2>Ask about anything Nutrition or Health related!</h2>
 
-		<form method="POST">
-			{% csrf_token %}
-			<input id="input" name="input"></input>
-			<button type="submit">Send</button>
-		</form>
+        <form method="POST">
+            <input id="input" name="input" type = "text" size = 50></input> 
+            <button type="submit" hidden = "hidden">Send</button>
+        </form>
 
-		<div class="result">
-			<p style="color: rgb(5, 146, 0)">{{message}}</p>
-		</div>
+        <div class="result">
+            <p style="color: rgb(5, 146, 0)">{{message}}</p>
+        </div>
 
-	</body>	
+    </body> 
 </html>
