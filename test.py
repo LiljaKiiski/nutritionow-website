@@ -65,7 +65,7 @@ output = numpy.array(output)
 
 #Developing a Model
 
-tensorflow.reset_default_graph()
+tensorflow.compat.v1.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(training[0])])
 net = tflearn.fully_connected(net, 8)
