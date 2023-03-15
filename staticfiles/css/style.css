@@ -3,23 +3,83 @@
     src: url('ShadowsIntoLight-Regular.ttf');
 }
 
-html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: shadows-into-light;
-	background: #fffdf1;
-	color: #92c24c;
-	text-align: center;
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: shadows-into-light;
+    background: #f8f5e9;
+    color: #92c24c;
+    text-align: center;
 }
 
-.top h1 {
-	color: #4ca044;
-	font-size: 100px;
+.bubble{
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.person{
+	width: 20%;
+	height: auto;
+	float: left;
+	border-radius:20px;
+	margin: 20px;
+	font-size: 30px;
+	padding: 5px;
+	position: relative;
+	border: 5px solid black;
+}
+
+.person h1{
+	font-size: 40px;
+}
+
+.page{
+    background-color: rgb(112, 197, 226);
+    border: 3px solid rgb(0, 96, 240);
+    font-size: 30px;
+    color:rgb(0, 96, 240);
+    padding-left:2.5%;
+    padding-right: 2.5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+#navBar{
+    background-color:rgb(112, 197, 226);
+    text-align: left;
+}
+
+#input{
+    width:max-content;
+}
+
+#top{
+    border: 3px solid rgb(112, 197, 226);
+}
+
+#top p{
+    color: #4ca044;
+    font-size: 20px;
+    background-color: #ddeb42;
+}
+
+#top h1 {
+    color: #4ca044;
+    font-size: 100px;
+    background-color: #ddeb42;
+    
+}
+
+
+
+h2 {
+    padding: 20px;
 }
 
 .result {
-	font-size: 25px;
-	margin-left: 30%;
-	margin-right: 30%;
+    font-size: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
+

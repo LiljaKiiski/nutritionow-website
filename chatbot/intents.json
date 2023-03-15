@@ -210,6 +210,17 @@
         "Are low-fat diets always the healthiest option? ",
         "What are the risks of consuming excessive amounts of fat? ",
         "Can consuming fats in moderation be part of a healthy diet?",
+        "Are all fats bad for you?",
+        "Are there any good fats for you? ",
+        "Can some fats be healthy for your body? ",
+        "Are all types of fats harmful? ",
+        "Is it true that fats can be beneficial to your health? ",
+        "Do different types of fats have varying impacts on your well-being? ",
+        "Can fats provide any advantages if consumed in moderation? ",
+        "Do you need to completely avoid all fats? ",
+        "Are there certain fats that are better for you than others? ",
+        "Are all fats equally unhealthy? ",
+        "Is it possible for fats to be beneficial in small amounts?",
         "Are all fats bad for you?"
       ],
       "responses": [
@@ -827,28 +838,6 @@
       "responses": [
         [
           "Good sources of calcium for those who do not consume dairy include fortified plant milks, tofu, leafy greens, and fortified cereals."
-        ]
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "39",
-      "patterns": [
-        "Are there any good fats for you? ",
-        "Can some fats be healthy for your body? ",
-        "Are all types of fats harmful? ",
-        "Is it true that fats can be beneficial to your health? ",
-        "Do different types of fats have varying impacts on your well-being? ",
-        "Can fats provide any advantages if consumed in moderation? ",
-        "Do you need to completely avoid all fats? ",
-        "Are there certain fats that are better for you than others? ",
-        "Are all fats equally unhealthy? ",
-        "Is it possible for fats to be beneficial in small amounts?",
-        "Are all fats bad for you?"
-      ],
-      "responses": [
-        [
-          "No, not all fats are bad for you. Unsaturated fats, found in nuts, seeds, and fatty fish, can have positive health benefits."
         ]
       ],
       "context_set": ""

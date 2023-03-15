@@ -20,7 +20,8 @@
         <h2>Ask about anything Nutrition or Health related!</h2>
 
         <form method="POST">
-            <input id="input" name="input" type = "text" size = 50></input> 
+			{% csrf_token %}
+            <input id="input" name="input" type="text" size = 50></input> 
             <button type="submit" hidden = "hidden">Send</button>
         </form>
 
