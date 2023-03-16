@@ -52,7 +52,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 
 /* Navbar */
 
-#navBar {
+.navBar {
     text-align: left;
 }
 
@@ -65,8 +65,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 
 .navbar .logo {
     width: 50px;
+    padding: 10px;
     float: left;
-    padding: 10px
 }
 
 /* Header */
@@ -74,7 +74,11 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 .header h1 {
     color: #4ca044;
     font-size: 100px;
-    text-align: center;
+}
+
+.header p{
+    color: #4ca044;
+    font-size: 25px;
 }
 
 .header h2 {
