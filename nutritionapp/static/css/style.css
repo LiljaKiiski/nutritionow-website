@@ -56,36 +56,28 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     text-align: left;
 }
 
-.page {
+.navbar .page {
     font-size: 40px;
     color:rgb(240, 128, 0);
     padding-left: 10px;
     padding-right: 10px;
-	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
-.logo {
+.navbar .logo {
     width: 50px;
     float: left;
     padding: 10px
 }
 
-#input{
-    width: max-content;
-}
+/* Header */
 
-#top p{
-    color: #4ca044;
-    font-size: 20px;
-}
-
-#top h1 {
+.header h1 {
     color: #4ca044;
     font-size: 100px;
+    text-align: center;
 }
 
-h2 {
+.header h2 {
     padding: 20px;
 }
 
@@ -95,3 +87,6 @@ h2 {
     margin-right: 30%;
 }
 
+#input{
+    width: max-content;
+}
