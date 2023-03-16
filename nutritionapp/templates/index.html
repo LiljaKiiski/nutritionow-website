@@ -7,16 +7,20 @@
     </head>
 
     <body>
-        <div id = 'navBar'>
-            <a class = "page" href = "index.html">Home</a>
-            <a class = "page" href = "about.html">About Us</a>
-        </div>
-        <div id="top">
-            <h1>NutritioNow</h1> <!-- better name later-->
-            <p>insert cool message about the goals</p>
+        <div class="navBar">
+            <a class="page" href = "index.html">Home</a>
+            <a class="page" href = "about.html">About Us</a>
+            <img class="logo" src="images/logo_multi_color.png">
         </div>
 
-        <h2>Ask about anything Nutrition or Health related!</h2>
+        <div class="header">
+            <h1>NutritioNow</h1>
+        </div>
+
+        <div id="info">
+            <h2>Welcome to NutritiNow!</h2>
+            <h3>Ask about anything Nutrition or Health related!</h3>
+        </div>
 
         <form method="POST">
 			{% csrf_token %}
@@ -25,7 +29,7 @@
         </form>
 
         <div class="result">
-            <p style="color: rgb(5, 146, 0)">{{message}}</p>
+            <p>{{message}}</p>
         </div>
 
     </body> 
