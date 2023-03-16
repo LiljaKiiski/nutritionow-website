@@ -183,7 +183,8 @@
         "Is drinking water a way to promote weight loss?",
         "Does drinking water contribute to losing weight?",
         "Can drinking water help you lose weight?",
-        "Is water consumption linked to weight loss?Does water intake assist in losing weight?",
+        "Is water consumption linked to weight loss?",
+        "Does water intake assist in losing weight?",
         "Can hydration support weight reduction?",
         "Can water help you achieve weight loss goals?",
         "Is there a connection between drinking water and weight loss?",
@@ -366,7 +367,8 @@
       "tag": "17",
       "patterns": [
         "What is the maximum amount of sugar one should consume?",
-        "What's the highest level of sugar that can be safe for one's health?How much sugar intake is deemed excessive?",
+        "What's the highest level of sugar that can be safe for one's health?",
+        "How much sugar intake is deemed excessive?",
         "What level of sugar in your diet is unhealthy?",
         "When does sugar consumption become harmful?",
         "What's the recommended limit for sugar consumption?",
@@ -430,9 +432,11 @@
     {
       "tag": "20",
       "patterns": [
-        "Can physical activity assist in lowering symptoms of anxiety and depression?Might exercise be beneficial in reducing levels of anxiety and depression?",
+        "Can physical activity assist in lowering symptoms of anxiety and depression?",
+        "Might exercise be beneficial in reducing levels of anxiety and depression?",
         "Could engaging in exercise possibly alleviate symptoms of anxiety and depression?",
-        "Is it true that physical activity can help decrease symptoms of anxiety and depression?Would exercising regularly potentially help reduce symptoms of anxiety and depression?",
+        "Is it true that physical activity can help decrease symptoms of anxiety and depression?",
+        "Would exercising regularly potentially help reduce symptoms of anxiety and depression?",
         "Is there a correlation between exercise and the reduction of anxiety and depression symptoms?",
         "Can working out have a positive impact on anxiety and depression symptoms?",
         "Does exercise have the potential to lower symptoms of anxiety and depression?",
@@ -494,7 +498,8 @@
     {
       "tag": "23",
       "patterns": [
-        "Can alcohol consumption be considered a healthy lifestyle choice?Is drinking alcohol consistent with a healthy way of life?",
+        "Can alcohol consumption be considered a healthy lifestyle choice?",
+        "Is drinking alcohol consistent with a healthy way of life?",
         "Does consuming alcohol align with leading a healthy lifestyle?",
         "Can drinking alcohol support an overall healthy lifestyle?",
         "Might alcohol consumption contribute to a healthy lifestyle?",
