@@ -28,7 +28,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 	font-size: 25px;
 	margin: 5px;
 	position: relative;
-	border: 5px solid rgb(4, 107, 0);
+	border: 5px solid #92c24c;
 }
 
 .person, .person h1, .person .bubble {
@@ -36,6 +36,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 .person h1{
+    color: rgb(4, 107, 0);;
 	font-size: 40px;
 }
 
@@ -52,7 +53,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 
 /* Navbar */
 
-.navBar {
+.navbar {
     text-align: left;
 }
 
@@ -73,7 +74,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 
 .header h1 {
     color: #4ca044;
-    font-size: 100px;
+    font-size: 120px;
 }
 
 .header p{
