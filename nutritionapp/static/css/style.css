@@ -15,19 +15,16 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     text-align: center;
 }
 
-/* Welcome message*/
-.info-text h1, .info-text h3 {
-    text-align: left;
-    margin: 10px;
-}
-
 .info-text h1 {
     color:rgb(5, 163, 0);
     font-size: 50px;
+    margin: 10px;
 }
 
 .info-text h3{
+    text-align: left;
     font-size: 25px;
+    margin: 10px;
 }
 
 .info-text img {
@@ -36,14 +33,18 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 5px;
+    border-radius: 20%;
 }
 
 .subset {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1100px;
     height: auto;
     margin: 5px;
     clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 /* Profiles */
@@ -92,7 +93,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 /* Navbar */
-
 .navbar {
     text-align: left;
 }
@@ -140,6 +140,22 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin-right: 30%;
 }
 
-#input{
+.center h3{
+    text-align: center;
+}
+
+/* misc */
+
+.footer img{
+    width: 300px;
+    margin-top: 100px;
+}
+
+#input {
     width: max-content;
+}
+
+#info-head {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
