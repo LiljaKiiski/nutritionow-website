@@ -11,3 +11,6 @@ def index(request):
     context = {"message": message}
 
     return render(request, "index.html", context)
+
+def about(request):
+    return render(request, "about.html")
