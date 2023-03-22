@@ -16,14 +16,34 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 /* Welcome message*/
-.welcome h1, .welcome h3 {
+.info-text h1, .info-text h3 {
     text-align: left;
     margin: 10px;
-    max-width: 800px;
 }
 
-.welcome h1 {
+.info-text h1 {
     color:rgb(5, 163, 0);
+    font-size: 50px;
+}
+
+.info-text h3{
+    font-size: 25px;
+}
+
+.info-text img {
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.subset {
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: 5px;
+    clear: both;
 }
 
 /* Profiles */
@@ -39,6 +59,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 	margin: 5px;
 	position: relative;
 	border: 5px solid #92c24c;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .person, .person h1, .person .bubble {
@@ -46,7 +68,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 .person h1{
-    color: rgb(4, 107, 0);;
+    color: rgb(4, 129, 0);;
 	font-size: 40px;
 }
 
@@ -59,6 +81,14 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 	text-align: center;
 	word-wrap: break-word;
     font-size: 30px;
+}
+
+/* Small */
+@media (max-width: 1200px) {
+    .person {
+      width: 50vw;
+      margin: 30px;
+    }
 }
 
 /* Navbar */
@@ -85,6 +115,14 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 .header h1 {
     color: #4ca044;
     font-size: 120px;
+}
+
+.header-small h1 {
+    color:rgb(5, 163, 0);
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .header p{
