@@ -3,8 +3,6 @@
     src: url('ShadowsIntoLight-Regular.ttf');
 }
 
-/* All pages */
-
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin: 0;
     padding: 0;
@@ -15,15 +13,36 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     text-align: center;
 }
 
-/* Welcome message*/
-.welcome h1, .welcome h3 {
-    text-align: left;
+.info-text h1 {
+    color:rgb(5, 163, 0);
+    font-size: 50px;
     margin: 10px;
-    max-width: 800px;
 }
 
-.welcome h1 {
-    color:rgb(5, 163, 0);
+.info-text h3{
+    text-align: left;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.info-text img {
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-radius: 20%;
+}
+
+.subset {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 5px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 /* Profiles */
@@ -39,6 +58,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 	margin: 5px;
 	position: relative;
 	border: 5px solid #92c24c;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .person, .person h1, .person .bubble {
@@ -46,7 +67,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 .person h1{
-    color: rgb(4, 107, 0);;
+    color: rgb(4, 129, 0);;
 	font-size: 40px;
 }
 
@@ -61,8 +82,15 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     font-size: 30px;
 }
 
-/* Navbar */
+/* Small */
+@media (max-width: 1200px) {
+    .person {
+      width: 50vw;
+      margin: 30px;
+    }
+}
 
+/* Navbar */
 .navbar {
     text-align: left;
 }
@@ -87,6 +115,14 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     font-size: 120px;
 }
 
+.header-small h1 {
+    color:rgb(5, 163, 0);
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .header p{
     color: #4ca044;
     font-size: 25px;
@@ -102,6 +138,22 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin-right: 30%;
 }
 
-#input{
+.center h3{
+    text-align: center;
+}
+
+/* misc */
+
+.footer img{
+    width: 300px;
+    margin-top: 100px;
+}
+
+#input {
     width: max-content;
+}
+
+#info-head {
+    font-size: 20px;
+    margin-bottom: 15px;
 }

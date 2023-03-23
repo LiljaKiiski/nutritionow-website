@@ -47,11 +47,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 
 /* Profiles */
 .person{
-    display: block;
-    display: inline-block;
     min-height: 30vh;
 	width: 15%;
-	height: 40;
 	border-radius: 20px;
 	padding: 10px;
 	font-size: 25px;
