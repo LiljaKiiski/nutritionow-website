@@ -11,7 +11,8 @@ node_modules
 # dalai
 # Backup files # 
 *.bak 
-# .DS_STORE
+.DS_STORE
+ggml-model-q4_0.bin
 # If you are using PyCharm # 
 # User-specific stuff
 .idea/**/workspace.xml
