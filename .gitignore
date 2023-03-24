@@ -6,11 +6,12 @@ __pycache__
 db.sqlite3
 media
 
+
 node_modules
-dalai
+# dalai
 # Backup files # 
 *.bak 
-
+# .DS_STORE
 # If you are using PyCharm # 
 # User-specific stuff
 .idea/**/workspace.xml

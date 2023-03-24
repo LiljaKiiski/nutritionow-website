@@ -1,15 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
     <html lang="en">
         <head>
             <title>About Us</title>
-            <link rel = "stylesheet" type = "text/css" href = "../static/css/style.css">
-            <link rel="shortcut icon" type="image/png" href="../static/images/logo_multi_color.png"> 
+            <link rel = "stylesheet" type = "text/css" href = "{% static 'css/style.css' %}">
+            <link rel="shortcut icon" type="image/png" href="{% static 'images/logo_multi_color.png' %}"> 
         </head>
     <body>
         <div class="navbar">
             <a class="page" href = "{% url 'index' %}">Home</a>
             <a class="page" href = "{% url 'about' %}">About Us</a>
-            <img class="logo" src="../static/images/logo_multi_color.png">
+            <img class="logo" src="{% static 'images/logo_multi_color.png' %}">
         </div>
 
         <div class="header">
@@ -50,7 +51,7 @@
             <h1>Meet the Developers!</h1>
         </div>
 
-        <div class = person>
+        <div class="person">
             <h1>Justin Chen</h1>
             <img class="profile-pic" src="../static/images/justin_profile.png">
             <p class = "bubble">
@@ -59,7 +60,7 @@
                 And one more thing.
             </p>
         </div>
-        <div class = person>
+        <div class="person">
             <h1>Ethan Eisler</h1>
             <img class="profile-pic" src="../static/images/ethan_profile.png">
             <p class = "bubble">
@@ -68,7 +69,7 @@
                 And one more thing.
             </p>
         </div>
-        <div class = person>
+        <div class="person">
             <h1>Lilja Kiiski</h1>
             <img class="profile-pic" src="../static/images/lilja_profile.png">
             <p class = "bubble">
@@ -76,7 +77,7 @@
                 Robotics
             </p>
         </div>
-        <div class = person>
+        <div class="person">
             <h1>Jayden Lim</h1>
             <img class="profile-pic" src="../static/images/jayden_profile.jpg">
             <p class = "bubble">
@@ -85,7 +86,7 @@
         </div>
 
         <div class="footer">
-            <img src="../static/images/logo_multi_color.png">
+            <img src="{% static 'images/logo_multi_color.png' %}">
         </div>
     </body>
 </html>
