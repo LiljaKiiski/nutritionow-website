@@ -4,7 +4,9 @@
         <title>NutritioNow</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
         <link rel="shortcut icon" type="image/png" href="{% static 'images/logo_multi_color.png' %}"> 
-        <!--<script type="text/javascript" src="{% static 'js/script.js' %}"></script>-->
+        {% comment %} <script src="{% static 'js/jquery-3.6.4.min.js' %}"></script> {% endcomment %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
     </head>
 
     <body>
@@ -22,7 +24,7 @@
             <h3>Feel free to ask any nutrition or health related questions?</h3>
         </div>
 
-        <form id="chat-form" method="POST">
+        <form id="chat-form">
 			{% csrf_token %}
             <textarea id="input" name="input" type="text" rows="4" cols="50"></textarea> 
             <br>
@@ -41,7 +43,7 @@
         </form>
 
         <div class="result">
-            <p>{{message}}</p>
+            <p id="response">{{message}}</p>
         </div>
 
         <div class="info-text">
