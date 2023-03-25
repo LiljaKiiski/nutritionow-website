@@ -1,7 +1,3 @@
-# Model #
-staticfiles/models/dalai/alpaca/*.o
-staticfiles/models/dalai/alpaca/main
-
 # Django #
 *.log
 *.pot
@@ -190,3 +186,4 @@ staticfiles/models/dalai/alpaca/main
 staticfiles/models/dalai/alpaca/utils.o
 staticfiles/models/dalai/alpaca/utils.o
 staticfiles/models/dalai/alpaca/ggml.o
+staticfiles/css/style.css
