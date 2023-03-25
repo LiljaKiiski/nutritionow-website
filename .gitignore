@@ -16,7 +16,9 @@ node_modules
 # Backup files # 
 *.bak 
 /chat
+staticfiles
 
+quantize
 *.o
 *.a
 .cache/
