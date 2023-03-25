@@ -3,6 +3,9 @@
     src: url('ShadowsIntoLight-Regular.ttf');
 }
 
+* {
+    box-sizing: border-box;
+}
 
 button.expand {
 	--button-height: 48px;
@@ -255,15 +258,14 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin-top: 100px;
 }
 
-#input {
-    width: max-content;
-}
-
 #info-head {
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-textarea {
-    
+#input {
+    border-radius: 10px;
+    border-color: #4ca044;
+    resize: none;
+    margin: 10px;
 }

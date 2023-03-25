@@ -4,7 +4,7 @@
         <title>NutritioNow</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
         <link rel="shortcut icon" type="image/png" href="{% static 'images/logo_multi_color.png' %}"> 
-        <script src="{% static 'js/script.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
     </head>
 
     <body>
@@ -22,11 +22,11 @@
             <h3>Ask about anything Nutrition or Health related!</h3>
         </div>
 
-        <form method="POST">
+        <form id="chat-form" method="POST">
 			{% csrf_token %}
             <textarea id="input" name="input" type="text" rows="4" cols="50"></textarea> 
             <br>
-            <button class="expand">
+            <button class="expand" type="submit">
                 Submit
                 <span class="expand-icon expand-hover">
                     <svg class="first" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 32 32" version="1.1">
