@@ -113,7 +113,6 @@ button.expand.finished > .expand-icon > svg.second {
 	transform: scale(1.5) translateY(0px);
 }
 
-
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     margin: 0;
     padding: 0;
@@ -183,12 +182,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 .person .profile-pic {
     width: 70%;
     border-radius: 50%;
-}
-
-.person .bubble {
-	text-align: center;
-	word-wrap: break-word;
-    font-size: 30px;
 }
 
 /* Small */
