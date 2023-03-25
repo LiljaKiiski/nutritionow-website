@@ -1,3 +1,6 @@
+# Model #
+staticfiles/models/dalai/alpaca/*.o
+staticfiles/models/dalai/alpaca/main
 
 # Django #
 *.log
@@ -12,7 +15,6 @@ node_modules
 # dalai
 # Backup files # 
 *.bak 
-*.o
 /chat
 
 *.o
@@ -181,3 +183,8 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+staticfiles/models/dalai/alpaca/ggml.o
+staticfiles/models/dalai/alpaca/main
+staticfiles/models/dalai/alpaca/utils.o
+staticfiles/models/dalai/alpaca/utils.o
+staticfiles/models/dalai/alpaca/ggml.o
