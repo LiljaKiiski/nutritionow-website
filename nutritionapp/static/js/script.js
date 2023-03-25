@@ -4,7 +4,7 @@ $(function() {
         function (e) {
             e.preventDefault();
             const button = e.currentTarget;
-            const txtarea = document.querySelector("#input");
+            $("#input-field").attr("readonly", true); 
             button.classList.add("loading");
             button.disabled = true;
             // setTimeout(() => {
@@ -33,6 +33,7 @@ $(function() {
                     }, 700);
                 }, 1500);
                 $('#response').html(data);
+                $("#input-field").attr("readonly", false); 
             }).catch(function(err) {
                 console.log(err)
             })
@@ -46,14 +47,14 @@ function getResponse() {
             type:'POST',
             url:'',
             data:{
-                input:$('#input').val(),
+                input:$('#input-field').val(),
                 csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
             },
             success: function(data){
                 resolve(data)
             },
             error: function(err) {
-                reject
+                reject(err)
             }
         });
     });

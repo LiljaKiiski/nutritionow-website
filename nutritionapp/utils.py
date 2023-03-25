@@ -93,6 +93,6 @@ Below is an instruction that describes a task. Write a response that appropriate
     result = subprocess.run(
         ['staticfiles/models/dalai/alpaca/main', '--seed', '-1', '--threads', '4', '--n_predict', '200','--model', 'staticfiles/models/dalai/alpaca/models/7B/ggml-model-q4_0.bin', '--top_k', '40', '--top_p', '0.9', '--temp', '0.1', '--repeat_last_n', '64', '--repeat_penalty', '1.3', '-p', string], capture_output=True, text=True
     )
-    return result.stdout.replace(string, "")  
+    return result.stdout[result.stdout.index('Response:')+len('Response:'):]
 
 #staticfiles/models/dalai/alpaca/main --seed -1 --threads 4 --n_predict 200 --model staticfiles/models/dalai/alpaca/models/7B/ggml-model-q4_0.bin --top_k 40 --top_p 0.9 --temp 0.1 --repeat_last_n 64 --repeat_penalty 1.3 -p 'hi'
