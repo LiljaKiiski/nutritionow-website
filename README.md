@@ -18,7 +18,8 @@ Unfortunately for the moment the only way to host our website is to do so locall
 - django
 - django-environ
 2. Setup your virtual environment with the following commands
-```python3 -m venv venv
+```
+python3 -m venv venv
 source venv/bin/activate
 pip install django-environ
 ```
