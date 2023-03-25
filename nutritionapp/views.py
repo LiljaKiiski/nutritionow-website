@@ -4,11 +4,12 @@ from .utils import alpaca
 
 # Create your views here.
 def index(request):
-
     message = ""
     if request.method == "POST":
         message = alpaca(request.POST['input'])
     context = {"message": message}
+    print(request)
+    print(context)
 
     return render(request, "index.html", context)
 

@@ -184,7 +184,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     border-radius: 50%;
 }
 
-/* Small */
 @media (max-width: 1200px) {
     .person {
       width: 50vw;
@@ -211,7 +210,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
 }
 
 /* Header */
-
 .header h1 {
     color: #4ca044;
     font-size: 120px;

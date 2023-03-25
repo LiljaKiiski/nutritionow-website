@@ -13,10 +13,11 @@ Unfortunately for the moment the only way to host our website is to do so locall
 
 ### Installation and setup
 1. Make sure you have the following installed
-- python3
+- python3 (not 3.11)
 - python3.10-venv
 - django
 - django-environ
+- makes
 2. Setup your virtual environment with the following commands
 - python3 -m venv venv
 - source venv/bin/activate
