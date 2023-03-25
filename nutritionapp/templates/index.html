@@ -4,6 +4,7 @@
         <title>NutritioNow</title>
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
         <link rel="shortcut icon" type="image/png" href="{% static 'images/logo_multi_color.png' %}"> 
+        <script src="{% static 'js/script.js' %}"></script>
     </head>
 
     <body>
@@ -23,8 +24,20 @@
 
         <form method="POST">
 			{% csrf_token %}
-            <input id="input" name="input" type="text" size = 50></input> 
-            <button type="submit" hidden = "hidden">Send</button>
+            <textarea id="input" name="input" type="text" rows="4" cols="50"></textarea> 
+            <br>
+            <button class="expand">
+                Submit
+                <span class="expand-icon expand-hover">
+                    <svg class="first" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 32 32" version="1.1">
+                        <path d="M8.489 31.975c-0.271 0-0.549-0.107-0.757-0.316-0.417-0.417-0.417-1.098 0-1.515l14.258-14.264-14.050-14.050c-0.417-0.417-0.417-1.098 0-1.515s1.098-0.417 1.515 0l14.807 14.807c0.417 0.417 0.417 1.098 0 1.515l-15.015 15.022c-0.208 0.208-0.486 0.316-0.757 0.316z" />
+                    </svg>
+                    <span class="loader"></span>
+                    <svg class="second" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
+                        <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 5L8 15l-5-4" />
+                    </svg>
+                </span>
+            </button>
         </form>
 
         <div class="result">
