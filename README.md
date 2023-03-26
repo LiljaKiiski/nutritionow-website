@@ -17,7 +17,7 @@ Unfortunately for the moment the only way to host our website is to do so locall
 - python3.10-venv
 - django
 - django-environ
-- makes
+- make
 2. Setup your virtual environment with the following commands
 ```
 python3 -m venv venv
