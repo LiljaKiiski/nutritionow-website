@@ -26,7 +26,7 @@
 
         <form id="chat-form">
 			{% csrf_token %}
-            <textarea id="input-field" name="input" type="text" rows="4" cols="50"></textarea> 
+            <textarea id="input-field" name="input" type="text" rows="4" cols="50" minlength="1" required></textarea> 
             <br>
             <button class="expand" type="submit">
                 Submit
