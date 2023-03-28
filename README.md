@@ -1,5 +1,7 @@
 # Nutrition Now
 
+![alt-text](um)
+
 Unfortunately for the moment the only way to host our website is to do so locally. Our website has been made utilizing Django. Please follow the following instructions to setup our website for use on your computer
 
 ### Download the following:
