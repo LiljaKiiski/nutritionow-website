@@ -3,6 +3,10 @@
     src: url('ShadowsIntoLight-Regular.ttf');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 button.expand {
 	--button-height: 48px;
 	overflow: hidden;
@@ -205,27 +209,12 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     float: left;
 }
 
-/* Header */
-.header h1 {
-    color: #4ca044;
-    font-size: 120px;
-}
-
 .header-small h1 {
     color:rgb(5, 163, 0);
     font-size: 60px;
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
-}
-
-.header p{
-    color: #4ca044;
-    font-size: 25px;
-}
-
-.header h2 {
-    padding: 20px;
 }
 
 .result {
@@ -238,14 +227,18 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, button{
     text-align: center;
 }
 
-/* misc */
-
 .footer img{
     width: 300px;
     margin-top: 100px;
 }
 
-#info-head {
+
+#info-head h1 {
+    color: #4ca044;
+    font-size: 120px;
+}
+
+#info-head h3 {
     font-size: 20px;
     margin-bottom: 15px;
 }
