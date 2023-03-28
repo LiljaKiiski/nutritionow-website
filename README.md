@@ -1,7 +1,7 @@
 # NutritioNow
 
 Welcome, were glad to have you.
-Currently the only way to run our website is to host it locally. Please follow the following instructions to setup our website for use on your computer.
+Currently the only way to run our website is to host it locally on either Linux or MacOS (Windows has not been tested). Please follow the following instructions to setup our website for use on your computer.
 
 ## Download the following:
 1. Clone this repository
