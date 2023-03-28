@@ -3,10 +3,6 @@
     src: url('ShadowsIntoLight-Regular.ttf');
 }
 
-* {
-    box-sizing: border-box;
-}
-
 button.expand {
 	--button-height: 48px;
 	overflow: hidden;
