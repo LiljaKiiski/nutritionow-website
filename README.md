@@ -1,5 +1,6 @@
 # NutritioNow
 
+![alt-text](https://github.com/LiljaKiiski/nutritionow-website/blob/master/cover.png)
 
 Welcome, were glad to have you.
 Currently the only way to run our website is to host it locally on either Linux or MacOS (Windows has not been tested). Please follow the following instructions to setup our website for use on your computer.
